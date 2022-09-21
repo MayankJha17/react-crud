@@ -1,19 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from './Home';
-import About from './About';
 import {
   BrowserRouter as Router,
   Route,
   Link,
   Routes
 } from "react-router-dom";
-
+import Navbar from './components/Navbar';
 function App() {
-  return(
-    <>
-    <a href='#'>Link</a>
-    </>
+  return (
+    <Navbar title="Employee Management" about="About Employee Management"/>
   );
 }
 

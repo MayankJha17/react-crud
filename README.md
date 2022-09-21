@@ -14,3 +14,6 @@ Sample crud project for react
 # https://reactjs.org/docs/rendering-elements.html
 
 # For react routing we need to install package react router dom .
+
+# Props are read only i.e it can't be changed in component.
+

@@ -1,21 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 
 export default function TextForm(props) {
+    const [text , setText] = useState("Enter the Text");
     return (
-        <div className="mb-3">
-            <label for="exampleFormControlTextarea1" className="form-label">{props.title}</label>
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+        <>
+            <h1>{props.heading}</h1>
+            <h4>{props.title}</h4>
+            <div className="mb-3">
+                <div className="mb-3">
+                    <textarea className="form-control" id="mybox" rows="3" value={text}></textarea>
+                </div>
+                <button className="btn btn-primary">Convert to uppercase</button>
+            </div>
+        </>
     )
 }
 
 TextForm.propTypes = {
-    title: PropTypes.string.isRequired
+    title: PropTypes.string.isRequired,
+    heading: PropTypes.string.isRequired
 }
 
 // Setting default props
 
 TextForm.defaultProps = {
-    title : "Text Area"
+    title: "Text Area",
+    heading: "Enter the text"
 }

@@ -7,9 +7,15 @@ import {
   Routes
 } from "react-router-dom";
 import Navbar from './components/Navbar';
+import TextForm from './components/TextForm';
 function App() {
   return (
-    <Navbar title="Employee Management" about="About Employee Management"/>
+    <>
+      <Navbar title="TextUtils" about="About TextUtils" />
+      <div className="container">
+             <TextForm title= "Text Area"/>
+      </div>
+    </>
   );
 }
 

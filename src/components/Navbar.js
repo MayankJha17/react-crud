@@ -40,6 +40,6 @@ Navbar.propTypes = {
 // Setting default props
 
 Navbar.defaultProps = {
-    title : "Employee Management",
-    about : "About Employee Management"
+    title : "TextUtils",
+    about : "About TextUtils"
 }

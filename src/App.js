@@ -13,8 +13,8 @@ function App() {
     <>
       <Navbar title="TextUtils" about="About TextUtils" />
       <Routes>
-        <Route path="/" element={<TextFormFunc />} />
-        <Route path="/about" element={<AboutFunc />} />
+        <Route exact path="/" element={<TextFormFunc />} />  
+        <Route exact path="/about" element={<AboutFunc />} />
       </Routes>
     </>
   );

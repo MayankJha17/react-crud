@@ -17,3 +17,7 @@ Sample crud project for react
 
 # Props are read only i.e it can't be changed in component.
 
+# npm install react-router-dom
+
+# npm install gh-pages
+

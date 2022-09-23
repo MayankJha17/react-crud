@@ -21,3 +21,6 @@ Sample crud project for react
 
 # npm install gh-pages
 
+# For deployment in github page see link https://create-react-app.dev/docs/deployment/ and search github pages .
+
+## Github offically does not support react routing but it can be done by replacing browserRouter to HashRouter .

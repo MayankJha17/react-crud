@@ -5,6 +5,7 @@ import TextForm from './components/TextForm';
 import React from 'react';
 import About from './components/About';
 import {
+  Navigate,
   Route,
   Routes
 } from "react-router-dom";
